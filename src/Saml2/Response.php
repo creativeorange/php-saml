@@ -819,7 +819,7 @@ class Response
                     $attributeValues[] = $childNode->nodeValue;
                 }
             }
-            $attributes[$attributeKeyName][] = $attributeValues;
+            $attributes[$attributeKeyName] = $attributeValues;
         }
         return $attributes;
     }
